@@ -18,15 +18,18 @@ Or install it yourself as:
 
 ## Usage
 
+<pre>
 frontend = Your frontend ip as a string
 port = integer (default = 6546 )
 action = string ( action from the list)
 number = optional option when the action requires it
-
+</pre>
+<code>
 Mythtvremote::remote('192.168.1.10',6546,play)
 Mythtvremote::remote('192.168.1.10',6546,volume,30)
-
+</code>
 ##Jump points
+<pre>
 channelpriorities    	==>	 Channel Recording Priorities
 channelrecpriority   	==>	 Channel Recording Priorities
 deletebox            	==>	 TV Recording Deletion
@@ -66,11 +69,12 @@ videogallery         	==>	 Video Gallery
 videolistings        	==>	 Video Listings
 videomanager         	==>	 Video Manager
 viewscheduled        	==>	 Manage Recordings / Fix Conflicts
-
-
+</pre>
+<code>
 Mythtvremote::remote('192.168.1.10',6546,'videolistings')
-
+</code>
 ##Playback options
+<pre>
 chanup              	==>	Change channel Up
 chandown	            ==>	Change channel Down
 volume [number]         ==> Change the volume to % number
@@ -83,10 +87,12 @@ pause	                ==>	Pause playback
 play	                ==>	Playback at normal speed
 stop	                ==>	Stop playback
 menu                    ==> Playback menu
-
+</pre>
+<code>
 Mythtvremote::remote('192.168.1.10',6546,'play')
-
+</code>
 ##Navigation
+<pre>
 up	                    ==>	Key up
 down	                ==>	Key down
 right	                ==>	Key right
@@ -95,16 +101,20 @@ back	                ==>	Key back
 enter	                ==>	Key enter
 spacebar	            ==>	Key spacebar
 backspace	            ==>	Key backspace
-
+</pre>
+<code>
 Mythtvremote::remote('192.168.1.10',6546,'up)
-
+</code>
 ##Keys
-from a till  z
-from A till  Z
-from 0 till 9
-
+<pre>
+from a to  z
+from A to  Z
+from 0 to 9
+symbols : #,$,%,&,(,),*,+,-,.,/,:,;,<,=,>,?,[,],.
+</pre>
+<code>
 Mythtvremote::remote('192.168.1.10',6546,'a')
-
+</code>
 
 ## Contributing
 
