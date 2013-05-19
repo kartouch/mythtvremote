@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Mythtvremote::VERSION
   spec.authors       = ["Christophe Augello"]
   spec.email         = ["christophe@augello.be"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = "Mythtv front end remote control socket bindings"
+  spec.summary       = "Mythtv front end remote control socket bindings"
   spec.homepage      = "https://github.com/kartouch/mythtvremote"
   spec.license       = "MIT"
 
