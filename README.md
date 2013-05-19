@@ -27,6 +27,7 @@ number = optional option when the action requires it
 <code>
 Mythtvremote::remote('192.168.1.10',6546,'play')
 </code>
+
 <code>
 Mythtvremote::remote('192.168.1.10',6546,'volume',30)
 </code>
