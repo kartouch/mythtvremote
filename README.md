@@ -25,8 +25,10 @@ action = string ( action from the list)
 number = optional option when the action requires it
 </pre>
 <code>
-Mythtvremote::remote('192.168.1.10',6546,play)
-Mythtvremote::remote('192.168.1.10',6546,volume,30)
+Mythtvremote::remote('192.168.1.10',6546,'play')
+</code>
+<code>
+Mythtvremote::remote('192.168.1.10',6546,'volume',30)
 </code>
 ##Jump points
 <pre>
@@ -103,7 +105,7 @@ spacebar	            ==>	Key spacebar
 backspace	            ==>	Key backspace
 </pre>
 <code>
-Mythtvremote::remote('192.168.1.10',6546,'up)
+Mythtvremote::remote('192.168.1.10',6546,'up')
 </code>
 ##Keys
 <pre>
